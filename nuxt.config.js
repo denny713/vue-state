@@ -1,5 +1,3 @@
 export default {
-    modules: [
-        '@nuxtjs/vuex',
-    ],
+  modules: ["@nuxtjs/vuex"],
 };

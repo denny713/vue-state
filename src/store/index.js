@@ -18,7 +18,7 @@ const store = new Vuex.Store({
   actions: {
     async incrementAsync({ commit }) {
       await new Promise((resolve) => setTimeout(resolve, 1000));
-      commit('increment');
+      commit("increment");
     },
   },
 });

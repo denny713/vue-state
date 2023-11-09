@@ -10,11 +10,11 @@
 import { mapState, mapMutations } from "vuex";
 
 export default {
-    computed: {
-        ...mapState(['count']),
-    },
-    methods: {
-        ...mapMutations(['increment','decrement']),
-    },
+  computed: {
+    ...mapState(["count"]),
+  },
+  methods: {
+    ...mapMutations(["increment", "decrement"]),
+  },
 };
 </script>
